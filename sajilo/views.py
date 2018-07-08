@@ -12,7 +12,15 @@ def index(request):
 
 
 def searchlist(request):
-    return render(request, 'sajilo/searchlist.html')
+    question1 = str.lower(request.GET.get('q1'))
+    question2= str.lower(request.GET.get('q2'))
+    if question1 and question2:
+        len_1 = len(question1)
+        len_2 = len(question2)
+
+
+
+        return render(request, 'sajilo/searchlist.html')
 
 
 
