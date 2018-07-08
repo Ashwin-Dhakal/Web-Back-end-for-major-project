@@ -7,8 +7,8 @@ from sajilo import views as sajilo_views
 
 urlpatterns = [
     url(r'^$', sajilo_views.index, name='index'), #this is for the homepage
-    url(r'^hostel_list/$', sajilo_views.hostel_list),
-    url(r'^hostel_detail/(?P<id>\d+)/$', sajilo_views.hostel_detail , name = "hostel_detail"),
+    # url(r'^hostel_list/$', sajilo_views.hostel_list),
+    # url(r'^hostel_detail/(?P<id>\d+)/$', sajilo_views.hostel_detail , name = "hostel_detail"),
     url(r'^searchlist/',sajilo_views.searchlist,name='searchlist'),
     url(r'^admin/', admin.site.urls),
 
