@@ -83,7 +83,7 @@ def searchlist(request):
                               braycurtis_distance]])
 
         from keras.models import load_model
-        model = load_model('ANNmodel.h5')
+        model = load_model('ANNmodel2.h5')
         result = model.predict(question)
 
 

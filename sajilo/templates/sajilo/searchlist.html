@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sajilo Hostel</title>
+    <title>Semantic Question Matching</title>
 
             <link rel="stylesheet" href="{% static 'css/hover.css'%}">
 
@@ -194,6 +194,24 @@
             <div class="border hvr-float col-lg-8 col-md-8 wow fadeInUp" data-wow-delay="0.1s "><div class="eta"><p><i class="fa fa-gg" style="color: red" aria-hidden="true"></i>The result is: </p></div> <div class="uta" ><p> {{result}} </p></div></div>
    <div class="col-lg-2 col-md-2"></div>
       </div>
+
+
+        <div class="row">
+   <div class="col-lg-2 col-md-2"></div>
+            <div class="border hvr-float col-lg-8 col-md-8 wow fadeInUp" data-wow-delay="0.1s "> <div class="uta" >
+                <h4>
+                    {% if result <= 0.5 %}
+              The questions mean different and are not duplicates.
+          {% else %}
+                The questions seems duplicate ! The sigmoid falls above 0.5
+          {% endif %}
+                </h4></div></div>
+   <div class="col-lg-2 col-md-2"></div>
+      </div>
+<br>.
+<br> .
+          <br>.<br> <br>.<br> <br>.<br> <br>.<br>
+
 
 
 
