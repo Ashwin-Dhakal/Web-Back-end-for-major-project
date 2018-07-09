@@ -120,10 +120,10 @@ p {
 /*---------Hostel ko list haru----------------------------*/
 
 .hostel_ko_list .border{
-    width: 340px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 40px;
+/*    width: 400px;*/
+    margin-top: 20px;
+/*    margin-bottom: 5px;*/
+/*    margin-left: 40px;*/
 /*    border-radius: 5px;*/
     border-color:whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -138,6 +138,8 @@ p {
 .hostel_ko_list p{
     margin-top: 1px;
     color: darkgray;
+    text-align: center;
+    margin-top: 10px;
 }
 .hostel_ko_list{
     border: 20px;
@@ -145,24 +147,27 @@ p {
 .hostel_ko_list .eta{
     float: left;
     padding-left: 30px;
-    
+
 }
 .hostel_ko_list i{
     font-size: 20px;
     padding: 5px;
     color: dimgrey;
-    
+
 }
 
 .hostel_ko_list .uta{
-    float: right;
-    padding-right: 30px;
+/*    float: right;*/
+    margin-left: 30px;
 }
 
-.id3h{
+.id3h, .id4h, .id5h, .id6h, .id7h, .id8h, .id9h, .id10h, .id11h, .id12h, .id13h, .id13h, .id14h{
     width: 100%;
     height: 240px;
+/*    padding: 0,0,0px;*/
+/*    margin-top: 0px;*/
     margin-bottom: 10px;
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 /*-----------End Hostel ko list haru---------------------------*/
 
